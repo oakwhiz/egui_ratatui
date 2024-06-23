@@ -275,7 +275,8 @@ impl RataguiBackend {
                     Color32::from_rgb(15, 15, 112)
                 }
             }
-            Color::Black => Color32::BLACK,
+            //Color::Black => Color32::BLACK,
+            Color::Black => Color32::TRANSPARENT, // Hack
             Color::Red => Color32::DARK_RED,
             Color::Green => Color32::DARK_GREEN,
             Color::Yellow => Color32::GOLD,
